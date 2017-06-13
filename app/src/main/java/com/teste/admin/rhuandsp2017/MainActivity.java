@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                addTime();
+                inserirTime();
             }
         });
     }
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onContextItemSelected(selectedEstado);
     }
 
-    private void addTime(){
+    private void inserirTime(){
 
         Intent intent = new Intent(this, TimeActivity.class);
         Date date = new Date();

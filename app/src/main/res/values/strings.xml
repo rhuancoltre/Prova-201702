@@ -4,18 +4,17 @@
     <string name="title_activity_main">Times</string>
     <string name="title_activity_time">Cadastrar Time</string>
 
-
-
     <string name="codigo">Codigo</string>
     <string name="nome">Nome</string>
-    <string name="fundacao">Fundação</string>
+    <string name="fundacao">Fundacao</string>
     <string name="cadastro">Cadastro</string>
+
     <string name="salvar">Salvar</string>
     <string name="cancelar">Cancelar</string>
 
-    <string name="cancelado">Cancelado</string>
+    <string name="opsalvo">Time Salvo</string>
+    <string name="opcancela">Opcao Cancelada</string>
 
-    <string name="salvo">Time Salvo</string>
     <string name="alterar">Alterar</string>
     <string name="deletar">Deletar</string>
     <string name="deletarTime">Time Removido</string>

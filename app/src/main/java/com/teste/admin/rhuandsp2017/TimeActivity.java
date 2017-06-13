@@ -63,13 +63,13 @@ public class TimeActivity extends AppCompatActivity {
 
             case R.id.action_salvar:
                 this.salvarTime();
-                Toast.makeText(getApplicationContext(), R.string.salvo, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), R.string.opsalvo, Toast.LENGTH_LONG).show();
                 this.limparCampos();
                 finish();
                 break;
 
             case R.id.action_cancelar:
-                Toast.makeText(getApplicationContext(), R.string.cancelado, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), R.string.opcancela, Toast.LENGTH_LONG).show();
                 finish();
                 break;
         }
