@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="createTime">
+        CREATE TABLE time (
+            id INTEGER primary key AUTOINCREMENT,
+            nome TEXT,
+            fundacao TEXT,
+            cadastro TEXT
+        )
+    </string>
+
+
+    <string name="getTodos">
+        SELECT * FROM time
+    </string>
+
+</resources>
